@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <header>
+        <h1>My E-Commerce Store</h1>
+        <div class="cart-container">
+            <div id="cart-icon">🛒</div>
+        </div>
+    </header>
+
+    <section id="products">
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 133914.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 1</h3>
+            <p>$10.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 1')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 134100.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 2</h3>
+            <p>$20.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 2')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 134007.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 3</h3>
+            <p>$30.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 3')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 133816.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 4</h3>
+            <p>$40.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 4')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 135923.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 5</h3>
+            <p>$50.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 5')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 133841.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 6</h3>
+            <p>$60.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 6')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 140255.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 7</h3>
+            <p>$70.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 7')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 140146.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 8</h3>
+            <p>$80.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 8')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 140053.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 9</h3>
+            <p>$90.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 9')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 140021.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 10</h3>
+            <p>$100.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 10')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 140802.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 11</h3>
+            <p>$110.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 11')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./Screenshot 2024-02-06 140827.png" height="300vh" width="300vw" alt="Product Image">
+            <h3>Product 12</h3>
+            <p>$120.00</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 12')">Add to Cart</button>
+        </div>
+
+    </section>
+
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <div id="close-cart">X</div>
+        <section id="cart-items">
+
+        </section>
+        <h2 id="total-bill">Total: $<span id="cart-total">0.00</span></h2>
+        <button id="checkout-btn">Checkout</button>
+        <button id="clear-cart">Clear Cart</button>
+    </section>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
